@@ -1,6 +1,5 @@
 package moutai.yuyucheng.task71;
 
-// 文件名: DatabaseHelper.java
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

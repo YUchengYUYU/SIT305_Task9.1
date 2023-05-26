@@ -33,7 +33,7 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(ListActivity.this, DetailActivity.class);
-                intent.putExtra("id", itemIdList.get(position));  // 传递数据的ID，而不是它在列表中的位置
+                intent.putExtra("id", itemIdList.get(position));
                 startActivity(intent);
             }
         });
